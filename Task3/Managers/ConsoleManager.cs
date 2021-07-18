@@ -33,7 +33,7 @@ namespace Task3.Managers
                     }
                     return;
                 } 
-                catch (IndexOutOfRangeException e)
+                catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
                     ShowMenu();
