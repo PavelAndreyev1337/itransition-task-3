@@ -43,7 +43,7 @@ namespace Task3.Managers
 
         private void ShowCompetitionResult()
         {
-            switch (_game.Compete(_userInput))
+            switch (_game.Compete(_userInput - 1))
             {
                 case GameResult.Win:
                     Console.ForegroundColor = ConsoleColor.Green;
